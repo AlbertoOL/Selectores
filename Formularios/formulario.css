@@ -1,0 +1,44 @@
+form{
+    width: 30%;
+    border: 1px solid #CCCCCC;
+    margin: 20px;
+    padding: 20px;
+    background: #C5D4ED;
+}
+
+label{
+    font-style: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    width: 100%;
+}
+
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+}
+
+input:focus, textarea:focus{
+    border: 2px solid #1668C4;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 300px;
+    min-width: 100px;
+}
+
+input[type="submit"]{
+    margin-bottom: 0px;
+    background: #1668C4;
+    color: #FFFFFF;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: #4A88F4;
+    cursor: pointer;
+}

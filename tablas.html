@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ejemplo de HTML5">
+        <meta name="keywords" content="HTML5,CSS,JavaScript">
+        <meta http-equiv="X-AU-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elementos básicos (Tablas)</title>
+        <style>
+            body{
+                background-color: #ffe1ba;
+            }
+
+            #home{
+                color: rgba(150, 146, 150, 1);
+                font-size: 30px;
+                text-shadow: 4px 4px 2px rgba(150, 146, 150, 1);
+            }
+
+            td{
+                margin-left: 5px;
+                padding: 5px;
+            }
+
+            tr{
+                margin-left: 15px;
+                padding: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>
+        <table border="5">
+            <tr>
+                <th colspan="2" align="center" bgcolor="#ff7142">
+                    Secciones del tutorial
+                </th>
+            </tr>
+            <tr>
+                <td bgcolor="#80ff8b">
+                    <ul>
+                        <li>
+                            <font style="
+                                font: oblique bold 120% cursive;
+                                color: #003b79;">
+                                Comandos básicos
+                            </font>
+                        </li>
+                        <li><b>Imágenes</b></li>
+                        <li style="font-size: 30px;">Enlaces</li>
+                    </ul>
+                </td>
+                <td bgcolor="#80cdff">
+                    <ul>
+                       <li style="
+                            color: blue;
+                            font-size: 25px;">Tablas</li>
+                       <li>
+                           <font style="font: small-caps 100%/200% serif;">
+                                <b>Funciones especiales</b>
+                            </font> 
+                        </li>
+                       <li style="
+                            color: maroon;
+                            font-size: small;">Recomendaciones</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" align="center" bgcolor="#ff7142" style="color: #962d73">
+                    Introducción de imagenes en una tabla
+                </th>
+            </tr>
+            <tr>
+               <td bgcolor="#c482ff">Icono de página por defecto</td> 
+               <td bgcolor="yellow" id="home">Home</td>
+            </tr>
+            <tr>
+                <th colspan="2" align="center" bgcolor="#ff7142">
+                    Acceso a otros recursos</th>
+            </tr>
+            <tr>
+                <td bgcolor="#8efff8">Tec. de Zacatecas</td>
+                <td bgcolor="magenta"><a href="http://mapaches.itz.edu.mx">http://mapaches.itz.edu.mx</a></td>
+            </tr> 
+        </table>
+        </p>
+
+        <h2>Tablas anidas</h2>
+        <table border="5">
+            <tr>
+                <td bgcolor="blue">
+                    <table border="1">
+                        <tr>
+                            <td bgcolor="#ff77d6">Datos 1</td>
+                            <td bgcolor="#77ffd6">Datos 2</td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="red">Datos 3</td>
+                            <td bgcolor="white">Datos 4</td>
+                        </tr>
+                    </table>
+                </td>
+                <td bgcolor="orange">
+                    <table border="3">
+                        <tr>
+                            <td bgcolor="#4cc4ff">Datos 5</td>
+                            <td bgcolor="#75ff4c">Datos 6</td>
+                        </tr>
+                        <tr>
+                            <td>Datos 7</td>
+                            <td>
+                                <table border="1">
+                                    <tr>
+                                        <td bgcolor="black" style="color: white">Datos 8</td>
+                                        <td bgcolor="#edff4c">Datos 9</td>
+                                    <tr>
+                                        <td bgcolor="#a8ffb2">Datos 10</td>
+                                        <td bgcolor="#000000" style="color: greenyellow;">Datos 11</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        
+        <p>
+        <footer>
+            <b>Alumno: </b>Alberto Ortiz Leyva<br>
+            <b>No. Control: </b>LE19450005<br>
+        </footer>
+        </p>   
+        
+    </body>
+</html>
