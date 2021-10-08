@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+} 
+
+.error { 
+	color: red; 
+}
+.error.destacado { 
+	color: blue; 
+}
+.destacado { 
+	font-size: 15 px; 
+}
+.especial { 
+	font-weight: bold; 
+	font-family: sans-serif;
+}
+

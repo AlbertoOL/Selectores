@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; 
+      charset=iso-8859-1" /> 
+<title>Posicionamiento estatico2</title> 
+<style type="text/css"> 
+* {
+   font-family: arial;
+}
+body { 
+   width: 600px; 
+}
+div { 
+   border-style:solid;
+}
+div div {
+   border-style: dashed; 
+   border-color: green;
+   margin:5px;
+}
+div div div {
+   border-style: dashed;
+   border-color: red;
+   margin: 10px;
+}
+
+#menu {
+   position: relative;
+   top:50px;
+   left:40px;
+}
+li:nth-child(2) {
+   position:relative;
+   right:150px;
+}
+</style> 
+
+</head>  
+<body>   
+  <div>
+   <h1>Programacion Web</h1>
+   <h2>Unidad 3 Hojas de Estilo</h3>
+  </div>
+
+  <br />
+  <div>
+   <div>
+     <div id = "menu">Menu</div>
+       <hr/>
+       <ul>
+         <li><a href="#">Inicio</a></li>
+         <li><a href="#">Libros de programacion</a></li>
+         <li><a href="#">Cursos de programacion</a></li>
+         <li><a href="#">Ejemplos de programacion</a></li>
+      </ul>
+   </div>
+
+   <div>
+     <p>Aprender a programar es un objetivo que se plantea mucha gente y que
+        no todos alzanzan
+     </p>
+     <p>Hay que tenerclaro que aprender a programar no es una tarea de un dia
+        o de una semana, aprender a programar requiere al menos de varios meses.
+     </p>
+   </div>
+  </div>
+</body> 
+</html>
